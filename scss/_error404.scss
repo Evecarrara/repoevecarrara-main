@@ -1,0 +1,34 @@
+
+
+.button{  
+    a{
+       
+        text-decoration: none;
+        border-radius: 30px;
+        
+    }   
+ 
+}
+ 
+.error-404{
+    align-items: center;
+   text-align: center;
+   padding: 15%;
+   h1{
+    font-size: 600%;
+   }
+   p{
+    font-size: 150%;
+   }
+   
+}
+.error{
+    background-color: gainsboro;
+}
+
+.buttonerror{
+   border-radius: 10px; 
+   a{
+    color: black;
+} 
+}

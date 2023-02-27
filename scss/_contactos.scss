@@ -1,0 +1,33 @@
+//
+
+.contact {
+    flex-direction: column;
+    padding: 0 40px 120px;
+    border: 0;
+}
+
+.contact {
+    display: flex;
+    text-align: left;
+    background-color: $colorprincipal;
+    padding: 80px 60px;
+    border-radius: 15px;
+    border: 1px solid #e0e0e0;
+}
+
+* {
+    box-sizing: border-box;
+}
+ 
+.button{
+    .error404{
+        text-decoration: none;
+        border-radius: 30px;
+       
+    }
+    border-radius: 10px;
+    a{
+        color:black;
+    }
+    
+}

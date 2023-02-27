@@ -1,0 +1,41 @@
+//nesting - anidacion 
+
+.mis-proyectos{
+    p{padding: 6%;}
+    .proyectos-lorem {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    height: 300px;
+    width: 1350px;
+    /*width: 1350px;*/
+    width: 100%;
+    font-size: 30px;
+    margin-block-start: 7%; }
+}
+.grid-proyectos {
+    /* display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    a{
+        text-decoration: none;
+    }
+    img {
+        height: 45%;
+    }
+    p {
+        font-size: 25px;
+        text-decoration: none;
+        text-align: center;
+    }
+    
+}
+
+.grid-quote-section {
+    color: $colorprincipal;
+}
+
+

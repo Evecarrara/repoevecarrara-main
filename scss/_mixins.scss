@@ -1,0 +1,23 @@
+//extends 
+
+.proyectos{
+height: 240px;
+width: 240px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: 40px;
+border-radius: 8px;
+box-shadow: 0px 0px 80px -24px rgba(0, 0, 0, 0.75) inset;
+background-color: $colorprincipal;
+color: #2e2e31;
+text-decoration: none;
+grid-column: auto;
+grid-row: auto}
+
+.conocimientos{
+    @extend .proyectos; 
+    img {height: 45%;
+    filter: grayscale(1); 
+}}
